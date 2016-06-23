@@ -1,0 +1,916 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18226E8C1BF5CE7800E927B0 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18226E8B1BF5CE7700E927B0 /* libsqlite3.0.tbd */; };
+		1829220B1BDE41B1005BB556 /* TFHistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 182922091BDE41B1005BB556 /* TFHistoryTableViewCell.m */; };
+		1829220C1BDE41B1005BB556 /* TFHistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1829220A1BDE41B1005BB556 /* TFHistoryTableViewCell.xib */; };
+		1829223B1BDE6012005BB556 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1829223A1BDE6012005BB556 /* libsqlite3.dylib */; };
+		1834016F1BCF8C5800A6D113 /* SeachResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834016D1BCF8C5800A6D113 /* SeachResultTableViewController.m */; };
+		184F7CD21BCBCC3C00FDD2D4 /* TFStationSelectedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F7CD01BCBCC3C00FDD2D4 /* TFStationSelectedViewController.m */; };
+		184F7CD31BCBCC3C00FDD2D4 /* TFStationSelectedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184F7CD11BCBCC3C00FDD2D4 /* TFStationSelectedViewController.xib */; };
+		1850A8DD1BCF3FAF003D7C53 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850A8D91BCF3FAF003D7C53 /* MBProgressHUD+MJ.m */; };
+		1850A8DE1BCF3FAF003D7C53 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1850A8DA1BCF3FAF003D7C53 /* MBProgressHUD.bundle */; };
+		1850A8DF1BCF3FAF003D7C53 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850A8DC1BCF3FAF003D7C53 /* MBProgressHUD.m */; };
+		1850A8F31BCF583A003D7C53 /* CalendarDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850A8E21BCF583A003D7C53 /* CalendarDayCell.m */; };
+		1850A8F41BCF583A003D7C53 /* CalendarDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850A8E41BCF583A003D7C53 /* CalendarDayModel.m */; };
+		1850A8F51BCF583A003D7C53 /* CalendarHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850A8E61BCF583A003D7C53 /* CalendarHomeViewController.m */; };
+		1850A8F61BCF583A003D7C53 /* CalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850A8E81BCF583A003D7C53 /* CalendarLogic.m */; };
+		1850A8F71BCF583A003D7C53 /* CalendarMonthCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850A8EA1BCF583A003D7C53 /* CalendarMonthCollectionViewLayout.m */; };
+		1850A8F81BCF583A003D7C53 /* CalendarMonthHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850A8EC1BCF583A003D7C53 /* CalendarMonthHeaderView.m */; };
+		1850A8F91BCF583A003D7C53 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850A8EE1BCF583A003D7C53 /* CalendarViewController.m */; };
+		1850A8FA1BCF583A003D7C53 /* chack.png in Resources */ = {isa = PBXBuildFile; fileRef = 1850A8EF1BCF583A003D7C53 /* chack.png */; };
+		1850A8FB1BCF583A003D7C53 /* NSDate+WQCalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850A8F21BCF583A003D7C53 /* NSDate+WQCalendarLogic.m */; };
+		185122721BCE680F00BA2CD2 /* TFTrainNumberQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 185122711BCE680F00BA2CD2 /* TFTrainNumberQuery.m */; };
+		186AF5771BCC96490088362D /* TFMyTripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AF5751BCC96490088362D /* TFMyTripViewController.m */; };
+		186AF5781BCC96490088362D /* TFMyTripViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186AF5761BCC96490088362D /* TFMyTripViewController.xib */; };
+		186AF57C1BCC965C0088362D /* TFTrainServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AF57A1BCC965C0088362D /* TFTrainServiceViewController.m */; };
+		186AF57D1BCC965C0088362D /* TFTrainServiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186AF57B1BCC965C0088362D /* TFTrainServiceViewController.xib */; };
+		186AF5821BCCA1860088362D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186AF5811BCCA1860088362D /* Main.storyboard */; };
+		186AF5A51BCCDF900088362D /* TFTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AF5A41BCCDF900088362D /* TFTicket.m */; };
+		186AF5D71BCCE6CF0088362D /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AF5C51BCCE6CF0088362D /* AFHTTPRequestOperation.m */; };
+		186AF5D81BCCE6CF0088362D /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AF5C71BCCE6CF0088362D /* AFHTTPRequestOperationManager.m */; };
+		186AF5D91BCCE6CF0088362D /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AF5C91BCCE6CF0088362D /* AFHTTPSessionManager.m */; };
+		186AF5DA1BCCE6CF0088362D /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AF5CC1BCCE6CF0088362D /* AFNetworkReachabilityManager.m */; };
+		186AF5DB1BCCE6CF0088362D /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AF5CE1BCCE6CF0088362D /* AFSecurityPolicy.m */; };
+		186AF5DC1BCCE6CF0088362D /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AF5D01BCCE6CF0088362D /* AFURLConnectionOperation.m */; };
+		186AF5DD1BCCE6CF0088362D /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AF5D21BCCE6CF0088362D /* AFURLRequestSerialization.m */; };
+		186AF5DE1BCCE6CF0088362D /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AF5D41BCCE6CF0088362D /* AFURLResponseSerialization.m */; };
+		186AF5DF1BCCE6CF0088362D /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AF5D61BCCE6CF0088362D /* AFURLSessionManager.m */; };
+		186AF5E31BCCEF430088362D /* TFSearchTicketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AF5E11BCCEF430088362D /* TFSearchTicketViewController.m */; };
+		186AF5E41BCCEF430088362D /* TFSearchTicketViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186AF5E21BCCEF430088362D /* TFSearchTicketViewController.xib */; };
+		186AF5E81BCCF2FD0088362D /* TFTicketTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AF5E61BCCF2FD0088362D /* TFTicketTableViewCell.m */; };
+		186AF5E91BCCF2FD0088362D /* TFTicketTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186AF5E71BCCF2FD0088362D /* TFTicketTableViewCell.xib */; };
+		186AF5ED1BCD02850088362D /* TFTrainServiceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AF5EB1BCD02850088362D /* TFTrainServiceTableViewCell.m */; };
+		186AF5EE1BCD02850088362D /* TFTrainServiceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186AF5EC1BCD02850088362D /* TFTrainServiceTableViewCell.xib */; };
+		186AF5FB1BCD15A90088362D /* TFTicketMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AF5FA1BCD15A90088362D /* TFTicketMetaData.m */; };
+		186AF5FE1BCD16200088362D /* TFMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AF5FD1BCD16200088362D /* TFMessage.m */; };
+		186AF6131BCD2B5C0088362D /* TFPersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AF6111BCD2B5C0088362D /* TFPersonalCenterViewController.m */; };
+		186AF6141BCD2B5C0088362D /* TFPersonalCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186AF6121BCD2B5C0088362D /* TFPersonalCenterViewController.xib */; };
+		186AF64D1BCDFCD50088362D /* TFHotelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AF64B1BCDFCD50088362D /* TFHotelsViewController.m */; };
+		186AF64E1BCDFCD50088362D /* TFHotelsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186AF64C1BCDFCD50088362D /* TFHotelsViewController.xib */; };
+		186AF6551BCE03530088362D /* TFtrainTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AF6531BCE03530088362D /* TFtrainTimeViewController.m */; };
+		186AF6561BCE03530088362D /* TFtrainTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186AF6541BCE03530088362D /* TFtrainTimeViewController.xib */; };
+		186AF65A1BCE039F0088362D /* TFstationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AF6581BCE039F0088362D /* TFstationViewController.m */; };
+		186AF65B1BCE039F0088362D /* TFstationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186AF6591BCE039F0088362D /* TFstationViewController.xib */; };
+		186AF6641BCE3CA40088362D /* TFDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AF6621BCE3CA40088362D /* TFDetailViewController.m */; };
+		186AF6651BCE3CA40088362D /* TFDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186AF6631BCE3CA40088362D /* TFDetailViewController.xib */; };
+		186AF6A21BCE4D340088362D /* TFScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AF6A01BCE4D340088362D /* TFScheduleViewController.m */; };
+		186AF6A31BCE4D340088362D /* TFScheduleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186AF6A11BCE4D340088362D /* TFScheduleViewController.xib */; };
+		186AF6A71BCE4F250088362D /* TFSchedulTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AF6A51BCE4F250088362D /* TFSchedulTableViewCell.m */; };
+		186AF6A81BCE4F250088362D /* TFSchedulTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186AF6A61BCE4F250088362D /* TFSchedulTableViewCell.xib */; };
+		186C9C951BCBA87E001056C1 /* TFStationList.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C9C941BCBA87E001056C1 /* TFStationList.m */; };
+		188063E81BCB978300303DB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188063E71BCB978300303DB8 /* main.m */; };
+		188063EB1BCB978300303DB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188063EA1BCB978300303DB8 /* AppDelegate.m */; };
+		188063EE1BCB978300303DB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188063ED1BCB978300303DB8 /* ViewController.m */; };
+		188063F31BCB978300303DB8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188063F21BCB978300303DB8 /* Images.xcassets */; };
+		188063F61BCB978300303DB8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188063F41BCB978300303DB8 /* LaunchScreen.xib */; };
+		188064021BCB978300303DB8 /* TicketFindTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188064011BCB978300303DB8 /* TicketFindTests.m */; };
+		188064131BCB98C100303DB8 /* TFWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188064121BCB98C100303DB8 /* TFWelcomeViewController.m */; };
+		188064231BCBA16300303DB8 /* TFQueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188064211BCBA16300303DB8 /* TFQueryViewController.m */; };
+		188064241BCBA16300303DB8 /* TFQueryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188064221BCBA16300303DB8 /* TFQueryViewController.xib */; };
+		189012BA1BCE97A600E31300 /* TFQueryTrainNoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189012B81BCE97A600E31300 /* TFQueryTrainNoViewController.m */; };
+		189012BB1BCE97A600E31300 /* TFQueryTrainNoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189012B91BCE97A600E31300 /* TFQueryTrainNoViewController.xib */; };
+		18F012A31BDDFF110011A3D9 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F012991BDDFF110011A3D9 /* FMDatabase.m */; };
+		18F012A41BDDFF110011A3D9 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0129B1BDDFF110011A3D9 /* FMDatabaseAdditions.m */; };
+		18F012A51BDDFF110011A3D9 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0129D1BDDFF110011A3D9 /* FMDatabasePool.m */; };
+		18F012A61BDDFF110011A3D9 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0129F1BDDFF110011A3D9 /* FMDatabaseQueue.m */; };
+		18F012A71BDDFF110011A3D9 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F012A21BDDFF110011A3D9 /* FMResultSet.m */; };
+		18F012AA1BDE03FB0011A3D9 /* TFHistoryData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F012A91BDE03FB0011A3D9 /* TFHistoryData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		188063FC1BCB978300303DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 188063DA1BCB978300303DB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188063E11BCB978300303DB8;
+			remoteInfo = TicketFind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18226E8B1BF5CE7700E927B0 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		182922081BDE41B1005BB556 /* TFHistoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHistoryTableViewCell.h; sourceTree = "<group>"; };
+		182922091BDE41B1005BB556 /* TFHistoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHistoryTableViewCell.m; sourceTree = "<group>"; };
+		1829220A1BDE41B1005BB556 /* TFHistoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFHistoryTableViewCell.xib; sourceTree = "<group>"; };
+		1829223A1BDE6012005BB556 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		1834016D1BCF8C5800A6D113 /* SeachResultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeachResultTableViewController.m; sourceTree = "<group>"; };
+		1834016E1BCF8C5800A6D113 /* SeachResultTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeachResultTableViewController.h; sourceTree = "<group>"; };
+		184F7CCF1BCBCC3C00FDD2D4 /* TFStationSelectedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFStationSelectedViewController.h; sourceTree = "<group>"; };
+		184F7CD01BCBCC3C00FDD2D4 /* TFStationSelectedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFStationSelectedViewController.m; sourceTree = "<group>"; };
+		184F7CD11BCBCC3C00FDD2D4 /* TFStationSelectedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFStationSelectedViewController.xib; sourceTree = "<group>"; };
+		1850A8D81BCF3FAF003D7C53 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		1850A8D91BCF3FAF003D7C53 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		1850A8DA1BCF3FAF003D7C53 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		1850A8DB1BCF3FAF003D7C53 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		1850A8DC1BCF3FAF003D7C53 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		1850A8E11BCF583A003D7C53 /* CalendarDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDayCell.h; sourceTree = "<group>"; };
+		1850A8E21BCF583A003D7C53 /* CalendarDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDayCell.m; sourceTree = "<group>"; };
+		1850A8E31BCF583A003D7C53 /* CalendarDayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDayModel.h; sourceTree = "<group>"; };
+		1850A8E41BCF583A003D7C53 /* CalendarDayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDayModel.m; sourceTree = "<group>"; };
+		1850A8E51BCF583A003D7C53 /* CalendarHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarHomeViewController.h; sourceTree = "<group>"; };
+		1850A8E61BCF583A003D7C53 /* CalendarHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarHomeViewController.m; sourceTree = "<group>"; };
+		1850A8E71BCF583A003D7C53 /* CalendarLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarLogic.h; sourceTree = "<group>"; };
+		1850A8E81BCF583A003D7C53 /* CalendarLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarLogic.m; sourceTree = "<group>"; };
+		1850A8E91BCF583A003D7C53 /* CalendarMonthCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarMonthCollectionViewLayout.h; sourceTree = "<group>"; };
+		1850A8EA1BCF583A003D7C53 /* CalendarMonthCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarMonthCollectionViewLayout.m; sourceTree = "<group>"; };
+		1850A8EB1BCF583A003D7C53 /* CalendarMonthHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarMonthHeaderView.h; sourceTree = "<group>"; };
+		1850A8EC1BCF583A003D7C53 /* CalendarMonthHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarMonthHeaderView.m; sourceTree = "<group>"; };
+		1850A8ED1BCF583A003D7C53 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		1850A8EE1BCF583A003D7C53 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		1850A8EF1BCF583A003D7C53 /* chack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chack.png; sourceTree = "<group>"; };
+		1850A8F01BCF583A003D7C53 /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		1850A8F11BCF583A003D7C53 /* NSDate+WQCalendarLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WQCalendarLogic.h"; sourceTree = "<group>"; };
+		1850A8F21BCF583A003D7C53 /* NSDate+WQCalendarLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WQCalendarLogic.m"; sourceTree = "<group>"; };
+		185122701BCE680F00BA2CD2 /* TFTrainNumberQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTrainNumberQuery.h; sourceTree = "<group>"; };
+		185122711BCE680F00BA2CD2 /* TFTrainNumberQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTrainNumberQuery.m; sourceTree = "<group>"; };
+		186AF5741BCC96490088362D /* TFMyTripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFMyTripViewController.h; sourceTree = "<group>"; };
+		186AF5751BCC96490088362D /* TFMyTripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFMyTripViewController.m; sourceTree = "<group>"; };
+		186AF5761BCC96490088362D /* TFMyTripViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFMyTripViewController.xib; sourceTree = "<group>"; };
+		186AF5791BCC965C0088362D /* TFTrainServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTrainServiceViewController.h; sourceTree = "<group>"; };
+		186AF57A1BCC965C0088362D /* TFTrainServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTrainServiceViewController.m; sourceTree = "<group>"; };
+		186AF57B1BCC965C0088362D /* TFTrainServiceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFTrainServiceViewController.xib; sourceTree = "<group>"; };
+		186AF5811BCCA1860088362D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		186AF5A31BCCDF900088362D /* TFTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTicket.h; sourceTree = "<group>"; };
+		186AF5A41BCCDF900088362D /* TFTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTicket.m; sourceTree = "<group>"; };
+		186AF5C41BCCE6CF0088362D /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		186AF5C51BCCE6CF0088362D /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		186AF5C61BCCE6CF0088362D /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		186AF5C71BCCE6CF0088362D /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		186AF5C81BCCE6CF0088362D /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		186AF5C91BCCE6CF0088362D /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		186AF5CA1BCCE6CF0088362D /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		186AF5CB1BCCE6CF0088362D /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		186AF5CC1BCCE6CF0088362D /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		186AF5CD1BCCE6CF0088362D /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		186AF5CE1BCCE6CF0088362D /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		186AF5CF1BCCE6CF0088362D /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		186AF5D01BCCE6CF0088362D /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		186AF5D11BCCE6CF0088362D /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		186AF5D21BCCE6CF0088362D /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		186AF5D31BCCE6CF0088362D /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		186AF5D41BCCE6CF0088362D /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		186AF5D51BCCE6CF0088362D /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		186AF5D61BCCE6CF0088362D /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		186AF5E01BCCEF430088362D /* TFSearchTicketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFSearchTicketViewController.h; sourceTree = "<group>"; };
+		186AF5E11BCCEF430088362D /* TFSearchTicketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFSearchTicketViewController.m; sourceTree = "<group>"; };
+		186AF5E21BCCEF430088362D /* TFSearchTicketViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFSearchTicketViewController.xib; sourceTree = "<group>"; };
+		186AF5E51BCCF2FD0088362D /* TFTicketTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTicketTableViewCell.h; sourceTree = "<group>"; };
+		186AF5E61BCCF2FD0088362D /* TFTicketTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTicketTableViewCell.m; sourceTree = "<group>"; };
+		186AF5E71BCCF2FD0088362D /* TFTicketTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFTicketTableViewCell.xib; sourceTree = "<group>"; };
+		186AF5EA1BCD02850088362D /* TFTrainServiceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTrainServiceTableViewCell.h; sourceTree = "<group>"; };
+		186AF5EB1BCD02850088362D /* TFTrainServiceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTrainServiceTableViewCell.m; sourceTree = "<group>"; };
+		186AF5EC1BCD02850088362D /* TFTrainServiceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFTrainServiceTableViewCell.xib; sourceTree = "<group>"; };
+		186AF5F91BCD15A90088362D /* TFTicketMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTicketMetaData.h; sourceTree = "<group>"; };
+		186AF5FA1BCD15A90088362D /* TFTicketMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTicketMetaData.m; sourceTree = "<group>"; };
+		186AF5FC1BCD16200088362D /* TFMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFMessage.h; sourceTree = "<group>"; };
+		186AF5FD1BCD16200088362D /* TFMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFMessage.m; sourceTree = "<group>"; };
+		186AF6101BCD2B5C0088362D /* TFPersonalCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFPersonalCenterViewController.h; sourceTree = "<group>"; };
+		186AF6111BCD2B5C0088362D /* TFPersonalCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFPersonalCenterViewController.m; sourceTree = "<group>"; };
+		186AF6121BCD2B5C0088362D /* TFPersonalCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFPersonalCenterViewController.xib; sourceTree = "<group>"; };
+		186AF64A1BCDFCD50088362D /* TFHotelsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHotelsViewController.h; sourceTree = "<group>"; };
+		186AF64B1BCDFCD50088362D /* TFHotelsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHotelsViewController.m; sourceTree = "<group>"; };
+		186AF64C1BCDFCD50088362D /* TFHotelsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFHotelsViewController.xib; sourceTree = "<group>"; };
+		186AF6521BCE03530088362D /* TFtrainTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFtrainTimeViewController.h; sourceTree = "<group>"; };
+		186AF6531BCE03530088362D /* TFtrainTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFtrainTimeViewController.m; sourceTree = "<group>"; };
+		186AF6541BCE03530088362D /* TFtrainTimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFtrainTimeViewController.xib; sourceTree = "<group>"; };
+		186AF6571BCE039F0088362D /* TFstationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFstationViewController.h; sourceTree = "<group>"; };
+		186AF6581BCE039F0088362D /* TFstationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFstationViewController.m; sourceTree = "<group>"; };
+		186AF6591BCE039F0088362D /* TFstationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFstationViewController.xib; sourceTree = "<group>"; };
+		186AF6611BCE3CA40088362D /* TFDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFDetailViewController.h; sourceTree = "<group>"; };
+		186AF6621BCE3CA40088362D /* TFDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFDetailViewController.m; sourceTree = "<group>"; };
+		186AF6631BCE3CA40088362D /* TFDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFDetailViewController.xib; sourceTree = "<group>"; };
+		186AF69F1BCE4D340088362D /* TFScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFScheduleViewController.h; sourceTree = "<group>"; };
+		186AF6A01BCE4D340088362D /* TFScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFScheduleViewController.m; sourceTree = "<group>"; };
+		186AF6A11BCE4D340088362D /* TFScheduleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFScheduleViewController.xib; sourceTree = "<group>"; };
+		186AF6A41BCE4F250088362D /* TFSchedulTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFSchedulTableViewCell.h; sourceTree = "<group>"; };
+		186AF6A51BCE4F250088362D /* TFSchedulTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFSchedulTableViewCell.m; sourceTree = "<group>"; };
+		186AF6A61BCE4F250088362D /* TFSchedulTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFSchedulTableViewCell.xib; sourceTree = "<group>"; };
+		186C9C931BCBA87E001056C1 /* TFStationList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFStationList.h; sourceTree = "<group>"; };
+		186C9C941BCBA87E001056C1 /* TFStationList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFStationList.m; sourceTree = "<group>"; };
+		188063E21BCB978300303DB8 /* TicketFind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicketFind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188063E61BCB978300303DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188063E71BCB978300303DB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188063E91BCB978300303DB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		188063EA1BCB978300303DB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		188063EC1BCB978300303DB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		188063ED1BCB978300303DB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		188063F21BCB978300303DB8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		188063F51BCB978300303DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		188063FB1BCB978300303DB8 /* TicketFindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketFindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		188064001BCB978300303DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188064011BCB978300303DB8 /* TicketFindTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicketFindTests.m; sourceTree = "<group>"; };
+		188064111BCB98C100303DB8 /* TFWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFWelcomeViewController.h; sourceTree = "<group>"; };
+		188064121BCB98C100303DB8 /* TFWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFWelcomeViewController.m; sourceTree = "<group>"; };
+		188064201BCBA16300303DB8 /* TFQueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFQueryViewController.h; sourceTree = "<group>"; };
+		188064211BCBA16300303DB8 /* TFQueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFQueryViewController.m; sourceTree = "<group>"; };
+		188064221BCBA16300303DB8 /* TFQueryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFQueryViewController.xib; sourceTree = "<group>"; };
+		189012B71BCE97A600E31300 /* TFQueryTrainNoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFQueryTrainNoViewController.h; sourceTree = "<group>"; };
+		189012B81BCE97A600E31300 /* TFQueryTrainNoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFQueryTrainNoViewController.m; sourceTree = "<group>"; };
+		189012B91BCE97A600E31300 /* TFQueryTrainNoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFQueryTrainNoViewController.xib; sourceTree = "<group>"; };
+		18F012981BDDFF110011A3D9 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		18F012991BDDFF110011A3D9 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		18F0129A1BDDFF110011A3D9 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		18F0129B1BDDFF110011A3D9 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		18F0129C1BDDFF110011A3D9 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		18F0129D1BDDFF110011A3D9 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		18F0129E1BDDFF110011A3D9 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		18F0129F1BDDFF110011A3D9 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		18F012A01BDDFF110011A3D9 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		18F012A11BDDFF110011A3D9 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		18F012A21BDDFF110011A3D9 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		18F012A81BDE03FB0011A3D9 /* TFHistoryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHistoryData.h; sourceTree = "<group>"; };
+		18F012A91BDE03FB0011A3D9 /* TFHistoryData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHistoryData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188063DF1BCB978300303DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18226E8C1BF5CE7800E927B0 /* libsqlite3.0.tbd in Frameworks */,
+				1829223B1BDE6012005BB556 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188063F81BCB978300303DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1850A8D71BCF3FAF003D7C53 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				1850A8D81BCF3FAF003D7C53 /* MBProgressHUD+MJ.h */,
+				1850A8D91BCF3FAF003D7C53 /* MBProgressHUD+MJ.m */,
+				1850A8DA1BCF3FAF003D7C53 /* MBProgressHUD.bundle */,
+				1850A8DB1BCF3FAF003D7C53 /* MBProgressHUD.h */,
+				1850A8DC1BCF3FAF003D7C53 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		1850A8E01BCF583A003D7C53 /* ZFCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				1850A8E11BCF583A003D7C53 /* CalendarDayCell.h */,
+				1850A8E21BCF583A003D7C53 /* CalendarDayCell.m */,
+				1850A8E31BCF583A003D7C53 /* CalendarDayModel.h */,
+				1850A8E41BCF583A003D7C53 /* CalendarDayModel.m */,
+				1850A8E51BCF583A003D7C53 /* CalendarHomeViewController.h */,
+				1850A8E61BCF583A003D7C53 /* CalendarHomeViewController.m */,
+				1850A8E71BCF583A003D7C53 /* CalendarLogic.h */,
+				1850A8E81BCF583A003D7C53 /* CalendarLogic.m */,
+				1850A8E91BCF583A003D7C53 /* CalendarMonthCollectionViewLayout.h */,
+				1850A8EA1BCF583A003D7C53 /* CalendarMonthCollectionViewLayout.m */,
+				1850A8EB1BCF583A003D7C53 /* CalendarMonthHeaderView.h */,
+				1850A8EC1BCF583A003D7C53 /* CalendarMonthHeaderView.m */,
+				1850A8ED1BCF583A003D7C53 /* CalendarViewController.h */,
+				1850A8EE1BCF583A003D7C53 /* CalendarViewController.m */,
+				1850A8EF1BCF583A003D7C53 /* chack.png */,
+				1850A8F01BCF583A003D7C53 /* Color.h */,
+				1850A8F11BCF583A003D7C53 /* NSDate+WQCalendarLogic.h */,
+				1850A8F21BCF583A003D7C53 /* NSDate+WQCalendarLogic.m */,
+			);
+			path = ZFCalendar;
+			sourceTree = "<group>";
+		};
+		186AF56C1BCC95A60088362D /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				186AF6101BCD2B5C0088362D /* TFPersonalCenterViewController.h */,
+				186AF6111BCD2B5C0088362D /* TFPersonalCenterViewController.m */,
+				186AF6121BCD2B5C0088362D /* TFPersonalCenterViewController.xib */,
+			);
+			path = PersonalCenter;
+			sourceTree = "<group>";
+		};
+		186AF56D1BCC95BA0088362D /* MyTrip */ = {
+			isa = PBXGroup;
+			children = (
+				186AF5741BCC96490088362D /* TFMyTripViewController.h */,
+				186AF5751BCC96490088362D /* TFMyTripViewController.m */,
+				186AF5761BCC96490088362D /* TFMyTripViewController.xib */,
+				186AF64A1BCDFCD50088362D /* TFHotelsViewController.h */,
+				186AF64B1BCDFCD50088362D /* TFHotelsViewController.m */,
+				186AF64C1BCDFCD50088362D /* TFHotelsViewController.xib */,
+				186AF6521BCE03530088362D /* TFtrainTimeViewController.h */,
+				186AF6531BCE03530088362D /* TFtrainTimeViewController.m */,
+				186AF6541BCE03530088362D /* TFtrainTimeViewController.xib */,
+				186AF6571BCE039F0088362D /* TFstationViewController.h */,
+				186AF6581BCE039F0088362D /* TFstationViewController.m */,
+				186AF6591BCE039F0088362D /* TFstationViewController.xib */,
+				189012B71BCE97A600E31300 /* TFQueryTrainNoViewController.h */,
+				189012B81BCE97A600E31300 /* TFQueryTrainNoViewController.m */,
+				189012B91BCE97A600E31300 /* TFQueryTrainNoViewController.xib */,
+			);
+			path = MyTrip;
+			sourceTree = "<group>";
+		};
+		186AF56E1BCC95CD0088362D /* TrainService */ = {
+			isa = PBXGroup;
+			children = (
+				186AF5791BCC965C0088362D /* TFTrainServiceViewController.h */,
+				186AF57A1BCC965C0088362D /* TFTrainServiceViewController.m */,
+				186AF57B1BCC965C0088362D /* TFTrainServiceViewController.xib */,
+			);
+			path = TrainService;
+			sourceTree = "<group>";
+		};
+		186AF5C31BCCE6CF0088362D /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				186AF5C41BCCE6CF0088362D /* AFHTTPRequestOperation.h */,
+				186AF5C51BCCE6CF0088362D /* AFHTTPRequestOperation.m */,
+				186AF5C61BCCE6CF0088362D /* AFHTTPRequestOperationManager.h */,
+				186AF5C71BCCE6CF0088362D /* AFHTTPRequestOperationManager.m */,
+				186AF5C81BCCE6CF0088362D /* AFHTTPSessionManager.h */,
+				186AF5C91BCCE6CF0088362D /* AFHTTPSessionManager.m */,
+				186AF5CA1BCCE6CF0088362D /* AFNetworking.h */,
+				186AF5CB1BCCE6CF0088362D /* AFNetworkReachabilityManager.h */,
+				186AF5CC1BCCE6CF0088362D /* AFNetworkReachabilityManager.m */,
+				186AF5CD1BCCE6CF0088362D /* AFSecurityPolicy.h */,
+				186AF5CE1BCCE6CF0088362D /* AFSecurityPolicy.m */,
+				186AF5CF1BCCE6CF0088362D /* AFURLConnectionOperation.h */,
+				186AF5D01BCCE6CF0088362D /* AFURLConnectionOperation.m */,
+				186AF5D11BCCE6CF0088362D /* AFURLRequestSerialization.h */,
+				186AF5D21BCCE6CF0088362D /* AFURLRequestSerialization.m */,
+				186AF5D31BCCE6CF0088362D /* AFURLResponseSerialization.h */,
+				186AF5D41BCCE6CF0088362D /* AFURLResponseSerialization.m */,
+				186AF5D51BCCE6CF0088362D /* AFURLSessionManager.h */,
+				186AF5D61BCCE6CF0088362D /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		186AF5EF1BCD14060088362D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				186AF5F91BCD15A90088362D /* TFTicketMetaData.h */,
+				186AF5FA1BCD15A90088362D /* TFTicketMetaData.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		188063D91BCB978300303DB8 = {
+			isa = PBXGroup;
+			children = (
+				18226E8B1BF5CE7700E927B0 /* libsqlite3.0.tbd */,
+				1829223A1BDE6012005BB556 /* libsqlite3.dylib */,
+				188063E41BCB978300303DB8 /* TicketFind */,
+				188063FE1BCB978300303DB8 /* TicketFindTests */,
+				188063E31BCB978300303DB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		188063E31BCB978300303DB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188063E21BCB978300303DB8 /* TicketFind.app */,
+				188063FB1BCB978300303DB8 /* TicketFindTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188063E41BCB978300303DB8 /* TicketFind */ = {
+			isa = PBXGroup;
+			children = (
+				186AF5EF1BCD14060088362D /* Tools */,
+				188064101BCB983000303DB8 /* Resources */,
+				1880640F1BCB97EF00303DB8 /* Libraries */,
+				1880640D1BCB97AF00303DB8 /* Controllers */,
+				1880640C1BCB97A300303DB8 /* Views */,
+				1880640B1BCB979900303DB8 /* Models */,
+				188063E91BCB978300303DB8 /* AppDelegate.h */,
+				188063EA1BCB978300303DB8 /* AppDelegate.m */,
+				188063EC1BCB978300303DB8 /* ViewController.h */,
+				188063ED1BCB978300303DB8 /* ViewController.m */,
+				188063F21BCB978300303DB8 /* Images.xcassets */,
+				186AF5811BCCA1860088362D /* Main.storyboard */,
+				188063F41BCB978300303DB8 /* LaunchScreen.xib */,
+				188063E51BCB978300303DB8 /* Supporting Files */,
+			);
+			path = TicketFind;
+			sourceTree = "<group>";
+		};
+		188063E51BCB978300303DB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				188063E61BCB978300303DB8 /* Info.plist */,
+				188063E71BCB978300303DB8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		188063FE1BCB978300303DB8 /* TicketFindTests */ = {
+			isa = PBXGroup;
+			children = (
+				188064011BCB978300303DB8 /* TicketFindTests.m */,
+				188063FF1BCB978300303DB8 /* Supporting Files */,
+			);
+			path = TicketFindTests;
+			sourceTree = "<group>";
+		};
+		188063FF1BCB978300303DB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				188064001BCB978300303DB8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1880640B1BCB979900303DB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				186C9C931BCBA87E001056C1 /* TFStationList.h */,
+				186C9C941BCBA87E001056C1 /* TFStationList.m */,
+				186AF5A31BCCDF900088362D /* TFTicket.h */,
+				186AF5A41BCCDF900088362D /* TFTicket.m */,
+				186AF5FC1BCD16200088362D /* TFMessage.h */,
+				186AF5FD1BCD16200088362D /* TFMessage.m */,
+				185122701BCE680F00BA2CD2 /* TFTrainNumberQuery.h */,
+				185122711BCE680F00BA2CD2 /* TFTrainNumberQuery.m */,
+				18F012A81BDE03FB0011A3D9 /* TFHistoryData.h */,
+				18F012A91BDE03FB0011A3D9 /* TFHistoryData.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1880640C1BCB97A300303DB8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				186AF5E51BCCF2FD0088362D /* TFTicketTableViewCell.h */,
+				186AF5E61BCCF2FD0088362D /* TFTicketTableViewCell.m */,
+				186AF5E71BCCF2FD0088362D /* TFTicketTableViewCell.xib */,
+				186AF5EA1BCD02850088362D /* TFTrainServiceTableViewCell.h */,
+				186AF5EB1BCD02850088362D /* TFTrainServiceTableViewCell.m */,
+				186AF5EC1BCD02850088362D /* TFTrainServiceTableViewCell.xib */,
+				186AF6A41BCE4F250088362D /* TFSchedulTableViewCell.h */,
+				186AF6A51BCE4F250088362D /* TFSchedulTableViewCell.m */,
+				186AF6A61BCE4F250088362D /* TFSchedulTableViewCell.xib */,
+				182922081BDE41B1005BB556 /* TFHistoryTableViewCell.h */,
+				182922091BDE41B1005BB556 /* TFHistoryTableViewCell.m */,
+				1829220A1BDE41B1005BB556 /* TFHistoryTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1880640D1BCB97AF00303DB8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				186AF56E1BCC95CD0088362D /* TrainService */,
+				186AF56D1BCC95BA0088362D /* MyTrip */,
+				186AF56C1BCC95A60088362D /* PersonalCenter */,
+				1880641F1BCBA16300303DB8 /* TicketQuery */,
+				188064111BCB98C100303DB8 /* TFWelcomeViewController.h */,
+				188064121BCB98C100303DB8 /* TFWelcomeViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1880640F1BCB97EF00303DB8 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				18F012971BDDFF110011A3D9 /* fmdb */,
+				1850A8E01BCF583A003D7C53 /* ZFCalendar */,
+				1850A8D71BCF3FAF003D7C53 /* MBProgressHUD */,
+				186AF5C31BCCE6CF0088362D /* AFNetworking */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		188064101BCB983000303DB8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1880641F1BCBA16300303DB8 /* TicketQuery */ = {
+			isa = PBXGroup;
+			children = (
+				188064201BCBA16300303DB8 /* TFQueryViewController.h */,
+				188064211BCBA16300303DB8 /* TFQueryViewController.m */,
+				188064221BCBA16300303DB8 /* TFQueryViewController.xib */,
+				184F7CCF1BCBCC3C00FDD2D4 /* TFStationSelectedViewController.h */,
+				184F7CD01BCBCC3C00FDD2D4 /* TFStationSelectedViewController.m */,
+				184F7CD11BCBCC3C00FDD2D4 /* TFStationSelectedViewController.xib */,
+				1834016E1BCF8C5800A6D113 /* SeachResultTableViewController.h */,
+				1834016D1BCF8C5800A6D113 /* SeachResultTableViewController.m */,
+				186AF5E01BCCEF430088362D /* TFSearchTicketViewController.h */,
+				186AF5E11BCCEF430088362D /* TFSearchTicketViewController.m */,
+				186AF5E21BCCEF430088362D /* TFSearchTicketViewController.xib */,
+				186AF6611BCE3CA40088362D /* TFDetailViewController.h */,
+				186AF6621BCE3CA40088362D /* TFDetailViewController.m */,
+				186AF6631BCE3CA40088362D /* TFDetailViewController.xib */,
+				186AF69F1BCE4D340088362D /* TFScheduleViewController.h */,
+				186AF6A01BCE4D340088362D /* TFScheduleViewController.m */,
+				186AF6A11BCE4D340088362D /* TFScheduleViewController.xib */,
+			);
+			path = TicketQuery;
+			sourceTree = "<group>";
+		};
+		18F012971BDDFF110011A3D9 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				18F012981BDDFF110011A3D9 /* FMDatabase.h */,
+				18F012991BDDFF110011A3D9 /* FMDatabase.m */,
+				18F0129A1BDDFF110011A3D9 /* FMDatabaseAdditions.h */,
+				18F0129B1BDDFF110011A3D9 /* FMDatabaseAdditions.m */,
+				18F0129C1BDDFF110011A3D9 /* FMDatabasePool.h */,
+				18F0129D1BDDFF110011A3D9 /* FMDatabasePool.m */,
+				18F0129E1BDDFF110011A3D9 /* FMDatabaseQueue.h */,
+				18F0129F1BDDFF110011A3D9 /* FMDatabaseQueue.m */,
+				18F012A01BDDFF110011A3D9 /* FMDB.h */,
+				18F012A11BDDFF110011A3D9 /* FMResultSet.h */,
+				18F012A21BDDFF110011A3D9 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188063E11BCB978300303DB8 /* TicketFind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188064051BCB978300303DB8 /* Build configuration list for PBXNativeTarget "TicketFind" */;
+			buildPhases = (
+				188063DE1BCB978300303DB8 /* Sources */,
+				188063DF1BCB978300303DB8 /* Frameworks */,
+				188063E01BCB978300303DB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicketFind;
+			productName = TicketFind;
+			productReference = 188063E21BCB978300303DB8 /* TicketFind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		188063FA1BCB978300303DB8 /* TicketFindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188064081BCB978300303DB8 /* Build configuration list for PBXNativeTarget "TicketFindTests" */;
+			buildPhases = (
+				188063F71BCB978300303DB8 /* Sources */,
+				188063F81BCB978300303DB8 /* Frameworks */,
+				188063F91BCB978300303DB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				188063FD1BCB978300303DB8 /* PBXTargetDependency */,
+			);
+			name = TicketFindTests;
+			productName = TicketFindTests;
+			productReference = 188063FB1BCB978300303DB8 /* TicketFindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188063DA1BCB978300303DB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TF;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = yulingsong;
+				TargetAttributes = {
+					188063E11BCB978300303DB8 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					188063FA1BCB978300303DB8 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 188063E11BCB978300303DB8;
+					};
+				};
+			};
+			buildConfigurationList = 188063DD1BCB978300303DB8 /* Build configuration list for PBXProject "TicketFind" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 188063D91BCB978300303DB8;
+			productRefGroup = 188063E31BCB978300303DB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188063E11BCB978300303DB8 /* TicketFind */,
+				188063FA1BCB978300303DB8 /* TicketFindTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188063E01BCB978300303DB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186AF57D1BCC965C0088362D /* TFTrainServiceViewController.xib in Resources */,
+				188063F61BCB978300303DB8 /* LaunchScreen.xib in Resources */,
+				186AF6A31BCE4D340088362D /* TFScheduleViewController.xib in Resources */,
+				186AF5EE1BCD02850088362D /* TFTrainServiceTableViewCell.xib in Resources */,
+				186AF5821BCCA1860088362D /* Main.storyboard in Resources */,
+				186AF6141BCD2B5C0088362D /* TFPersonalCenterViewController.xib in Resources */,
+				1850A8FA1BCF583A003D7C53 /* chack.png in Resources */,
+				188063F31BCB978300303DB8 /* Images.xcassets in Resources */,
+				186AF5781BCC96490088362D /* TFMyTripViewController.xib in Resources */,
+				186AF5E41BCCEF430088362D /* TFSearchTicketViewController.xib in Resources */,
+				186AF5E91BCCF2FD0088362D /* TFTicketTableViewCell.xib in Resources */,
+				184F7CD31BCBCC3C00FDD2D4 /* TFStationSelectedViewController.xib in Resources */,
+				186AF6A81BCE4F250088362D /* TFSchedulTableViewCell.xib in Resources */,
+				186AF6561BCE03530088362D /* TFtrainTimeViewController.xib in Resources */,
+				189012BB1BCE97A600E31300 /* TFQueryTrainNoViewController.xib in Resources */,
+				186AF6651BCE3CA40088362D /* TFDetailViewController.xib in Resources */,
+				186AF65B1BCE039F0088362D /* TFstationViewController.xib in Resources */,
+				1850A8DE1BCF3FAF003D7C53 /* MBProgressHUD.bundle in Resources */,
+				188064241BCBA16300303DB8 /* TFQueryViewController.xib in Resources */,
+				186AF64E1BCDFCD50088362D /* TFHotelsViewController.xib in Resources */,
+				1829220C1BDE41B1005BB556 /* TFHistoryTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188063F91BCB978300303DB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188063DE1BCB978300303DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186AF5D71BCCE6CF0088362D /* AFHTTPRequestOperation.m in Sources */,
+				186C9C951BCBA87E001056C1 /* TFStationList.m in Sources */,
+				186AF6A21BCE4D340088362D /* TFScheduleViewController.m in Sources */,
+				18F012A31BDDFF110011A3D9 /* FMDatabase.m in Sources */,
+				184F7CD21BCBCC3C00FDD2D4 /* TFStationSelectedViewController.m in Sources */,
+				189012BA1BCE97A600E31300 /* TFQueryTrainNoViewController.m in Sources */,
+				186AF5DF1BCCE6CF0088362D /* AFURLSessionManager.m in Sources */,
+				186AF5DC1BCCE6CF0088362D /* AFURLConnectionOperation.m in Sources */,
+				186AF5D81BCCE6CF0088362D /* AFHTTPRequestOperationManager.m in Sources */,
+				186AF5DA1BCCE6CF0088362D /* AFNetworkReachabilityManager.m in Sources */,
+				18F012AA1BDE03FB0011A3D9 /* TFHistoryData.m in Sources */,
+				186AF57C1BCC965C0088362D /* TFTrainServiceViewController.m in Sources */,
+				1829220B1BDE41B1005BB556 /* TFHistoryTableViewCell.m in Sources */,
+				188063EE1BCB978300303DB8 /* ViewController.m in Sources */,
+				185122721BCE680F00BA2CD2 /* TFTrainNumberQuery.m in Sources */,
+				186AF5DB1BCCE6CF0088362D /* AFSecurityPolicy.m in Sources */,
+				186AF5ED1BCD02850088362D /* TFTrainServiceTableViewCell.m in Sources */,
+				1850A8DD1BCF3FAF003D7C53 /* MBProgressHUD+MJ.m in Sources */,
+				18F012A51BDDFF110011A3D9 /* FMDatabasePool.m in Sources */,
+				1850A8F51BCF583A003D7C53 /* CalendarHomeViewController.m in Sources */,
+				1850A8F81BCF583A003D7C53 /* CalendarMonthHeaderView.m in Sources */,
+				188064131BCB98C100303DB8 /* TFWelcomeViewController.m in Sources */,
+				186AF6131BCD2B5C0088362D /* TFPersonalCenterViewController.m in Sources */,
+				1850A8FB1BCF583A003D7C53 /* NSDate+WQCalendarLogic.m in Sources */,
+				186AF5FE1BCD16200088362D /* TFMessage.m in Sources */,
+				1850A8F41BCF583A003D7C53 /* CalendarDayModel.m in Sources */,
+				186AF5DD1BCCE6CF0088362D /* AFURLRequestSerialization.m in Sources */,
+				186AF65A1BCE039F0088362D /* TFstationViewController.m in Sources */,
+				188063EB1BCB978300303DB8 /* AppDelegate.m in Sources */,
+				186AF5DE1BCCE6CF0088362D /* AFURLResponseSerialization.m in Sources */,
+				186AF5771BCC96490088362D /* TFMyTripViewController.m in Sources */,
+				186AF5A51BCCDF900088362D /* TFTicket.m in Sources */,
+				18F012A71BDDFF110011A3D9 /* FMResultSet.m in Sources */,
+				186AF6A71BCE4F250088362D /* TFSchedulTableViewCell.m in Sources */,
+				1850A8DF1BCF3FAF003D7C53 /* MBProgressHUD.m in Sources */,
+				186AF64D1BCDFCD50088362D /* TFHotelsViewController.m in Sources */,
+				186AF5E31BCCEF430088362D /* TFSearchTicketViewController.m in Sources */,
+				18F012A41BDDFF110011A3D9 /* FMDatabaseAdditions.m in Sources */,
+				186AF5D91BCCE6CF0088362D /* AFHTTPSessionManager.m in Sources */,
+				186AF5FB1BCD15A90088362D /* TFTicketMetaData.m in Sources */,
+				188063E81BCB978300303DB8 /* main.m in Sources */,
+				1850A8F91BCF583A003D7C53 /* CalendarViewController.m in Sources */,
+				186AF6551BCE03530088362D /* TFtrainTimeViewController.m in Sources */,
+				1850A8F31BCF583A003D7C53 /* CalendarDayCell.m in Sources */,
+				18F012A61BDDFF110011A3D9 /* FMDatabaseQueue.m in Sources */,
+				1834016F1BCF8C5800A6D113 /* SeachResultTableViewController.m in Sources */,
+				1850A8F71BCF583A003D7C53 /* CalendarMonthCollectionViewLayout.m in Sources */,
+				186AF6641BCE3CA40088362D /* TFDetailViewController.m in Sources */,
+				1850A8F61BCF583A003D7C53 /* CalendarLogic.m in Sources */,
+				188064231BCBA16300303DB8 /* TFQueryViewController.m in Sources */,
+				186AF5E81BCCF2FD0088362D /* TFTicketTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188063F71BCB978300303DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188064021BCB978300303DB8 /* TicketFindTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		188063FD1BCB978300303DB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 188063E11BCB978300303DB8 /* TicketFind */;
+			targetProxy = 188063FC1BCB978300303DB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		188063F41BCB978300303DB8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188063F51BCB978300303DB8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		188064031BCB978300303DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		188064041BCB978300303DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		188064061BCB978300303DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TicketFind/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		188064071BCB978300303DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TicketFind/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		188064091BCB978300303DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TicketFindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicketFind.app/TicketFind";
+			};
+			name = Debug;
+		};
+		1880640A1BCB978300303DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TicketFindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicketFind.app/TicketFind";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188063DD1BCB978300303DB8 /* Build configuration list for PBXProject "TicketFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188064031BCB978300303DB8 /* Debug */,
+				188064041BCB978300303DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188064051BCB978300303DB8 /* Build configuration list for PBXNativeTarget "TicketFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188064061BCB978300303DB8 /* Debug */,
+				188064071BCB978300303DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188064081BCB978300303DB8 /* Build configuration list for PBXNativeTarget "TicketFindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188064091BCB978300303DB8 /* Debug */,
+				1880640A1BCB978300303DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188063DA1BCB978300303DB8 /* Project object */;
+}
