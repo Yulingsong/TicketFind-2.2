@@ -469,12 +469,12 @@
 		1880640D1BCB97AF00303DB8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				188064111BCB98C100303DB8 /* TFWelcomeViewController.h */,
+				188064121BCB98C100303DB8 /* TFWelcomeViewController.m */,
 				186AF56E1BCC95CD0088362D /* TrainService */,
 				186AF56D1BCC95BA0088362D /* MyTrip */,
 				186AF56C1BCC95A60088362D /* PersonalCenter */,
 				1880641F1BCBA16300303DB8 /* TicketQuery */,
-				188064111BCB98C100303DB8 /* TFWelcomeViewController.h */,
-				188064121BCB98C100303DB8 /* TFWelcomeViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
